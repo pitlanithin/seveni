@@ -1,0 +1,1450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.bg {
+    background-color: aquamarine;
+}
+
+.container {
+
+    width: 90%;
+    margin: auto;
+}
+
+.combine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.icons {
+    margin-right: 135px;
+
+}
+
+.combine i {
+    padding: 10px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+
+}
+
+.address p {
+    padding: 10px;
+
+}
+
+.icons i {
+    justify-content: space-evenly;
+    margin: 6px;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.icons button {
+    height: 40px;
+    border-radius: 10px;
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(126, 126, 250);
+    color: white;
+    text-shadow: 5px;
+}
+
+.bg2 {
+    background-color: rgb(224, 245, 245);
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    margin-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+.image-logo img {
+    margin-left: 90px;
+}
+
+.details a {
+    text-decoration: none;
+    margin: 20px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.details a:hover {
+    color: #0514f0;
+}
+
+.second button {
+    height: 40px;
+    margin-top: 25px;
+    width: 150px;
+    background-color: rgb(242, 208, 151);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.bg3 {
+    height: 500px;
+    background-image: linear-gradient(rgba(11, 16, 2, 0.8), rgba(6, 0, 0, 0.7)), url(images/breadcrumb-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 248, 248);
+    font-size: xx-large;
+}
+
+.third button {
+    margin-top: 40px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color: rgb(237, 240, 243);
+    color: #000000;
+}
+
+.third button:hover {
+    background-color: rgb(87, 87, 102);
+    color: #fff;
+}
+
+.images-location {
+    height: 500px;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    margin-top: -10%;
+    margin-left: 100px;
+
+}
+
+
+.hyderabad {
+    background-image: linear-gradient(rgb(45, 24, 24, 0.7), rgb(188, 154, 154, 0.5)), url(hyderabad.jpg);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    color: #fff;
+    font-size: x-large;
+
+}
+
+.karimnagar {
+    background-image: linear-gradient(rgb(45, 24, 24, 0.7), rgb(188, 154, 154, 0.5)), url(karimnagar.jpg);
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    color: #fff;
+    font-size: x-large;
+    margin-right: 0;
+
+}
+
+.vijayawada {
+    background-image: linear-gradient(rgb(45, 24, 24, 0.7), rgb(188, 154, 154, 0.5)), url(vijayawada.jpg);
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    color: #dcd8d8;
+    font-size: x-large;
+    margin-left: 0;
+
+}
+
+.topics {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0;
+
+
+}
+
+.skilled {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+}
+
+.fifth-image img {
+    width: 500px;
+    height: 300px;
+
+
+}
+
+.four h1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3.5em;
+}
+
+.skill ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+
+.skilled i {
+    padding-right: 15px;
+
+
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.skill ul li i {
+    gap: 20px;
+}
+
+.name p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    font-size: 40px;
+}
+
+.bg7 {
+    background-color: rgb(236, 241, 242);
+    height: 250px;
+}
+
+.language-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    gap: 5px;
+
+
+
+}
+
+.one-first p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.one-second p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.one-first {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.one-first img {
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.one-second {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.one-second img {
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.one-third {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.one-third img {
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.one-third p {
+    font-size: 1.2rem;
+}
+
+.one-fourth {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.one-fourth img {
+    width: 70px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.one-fourth p {
+    font-size: 1.2rem;
+}
+
+.bg8 {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.58em;
+    margin-top: 50px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-left: 40px;
+
+}
+
+.fullstack {
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.boxes .boxone {
+    height: 250px;
+    border: 3px solid rgb(224, 172, 172);
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 30px;
+}
+
+.boxes .boxtwo {
+    height: 250px;
+    border: 3px solid rgb(231, 204, 204);
+    border-radius: 20px;
+    width: 600px;
+    margin-right: 40px;
+
+}
+
+.boxes .boxthree {
+    height: 250px;
+    border: 3px solid rgb(252, 207, 207);
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 30px;
+
+}
+
+.boxes .boxfour {
+    height: 250px;
+    border: 3px solid rgb(241, 183, 183);
+    border-radius: 20px;
+    width: 600px;
+}
+
+.boxone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.boxone button {
+    width: 180px;
+    height: 50px;
+    margin-right: 60px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.boxtwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.python {
+    margin-left: 40px;
+}
+
+.boxtwo button {
+    width: 180px;
+    height: 50px;
+    margin-right: 60px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.boxthree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.boxthree button {
+    width: 180px;
+    height: 50px;
+    margin-right: 60px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.php {
+    margin-left: 40px;
+}
+
+.boxfour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.boxfour button {
+    width: 180px;
+    height: 50px;
+    margin-right: 60px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.dotnet {
+    margin-left: 60px;
+}
+
+.other-one {
+    height: 100px;
+    margin-top: 150px;
+}
+
+.other {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other h1 {
+    margin-left: 80px;
+    font-size: 3em;
+}
+
+.other button {
+    background-color: orange;
+    margin-right: 60px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.bg10 {
+    height: 500px;
+}
+
+.multi-course {
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    row-gap: 50px;
+}
+
+.other-multi-course {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.digital-marketing {
+
+    border: 3px solid rgb(82, 85, 78);
+}
+
+.cprogram {
+    border: 3px solid rgb(119, 120, 117);
+}
+
+.msoffice {
+    border: 3px solid rgb(73, 74, 71);
+}
+
+.sql {
+    border: 3px solid rgb(98, 99, 96);
+}
+
+.webdeis {
+    border: 3px solid rgb(112, 113, 109);
+}
+
+.wordpress {
+    border: 3px solid rgb(126, 126, 125);
+}
+
+.digimark {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+}
+
+.digitaltext a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.digitaltext {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.programetext {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.msofficetext {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.sqltext {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.webdeistext {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.wordpresstext {
+    display: block;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.bg10 img {
+    height: 150px !important;
+    width: 150px !important;
+}
+
+.digiprogram {
+    display: flex;
+    /* width: 200px; */
+    align-items: center;
+    text-align: center;
+}
+
+.programetext a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.digimsoffice {
+    display: flex;
+    /* width: 180px; */
+    align-items: center;
+    text-align: center;
+}
+
+.msofficetext a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.digisql {
+    display: flex;
+    /* width: 250px; */
+    align-items: center;
+    text-align: center;
+}
+
+.sqltext a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.digiwebdeis {
+    display: flex;
+    /* width: 180px; */
+    align-items: center;
+    text-align: center;
+}
+
+.webdeistext a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.digiwordpress {
+    display: flex;
+    /* width: 180px; */
+    align-items: center;
+    text-align: center;
+}
+
+.wordpresstext a {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+
+.onesroll {
+    width: auto;
+    display: grid;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+    margin-left: 50px;
+    gap: 20px;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.srolling-one {
+    display: grid;
+    grid-template-rows: auto auto;
+
+    text-align: center;
+    border: 2px solid rgb(84, 72, 72);
+    border-radius: 40px;
+}
+
+.srillnow {
+    background-color: antiquewhite;
+    margin-top: 12px;
+
+}
+
+.srolling-two {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(78, 72, 72);
+    border-radius: 40px;
+
+}
+
+.star i {
+    background-color: yellow;
+
+}
+
+.srolling-one .star {
+    display: inline;
+    margin-top: 20px;
+}
+
+.srolling-two .star {
+    display: inline;
+    margin-top: 20px;
+}
+
+.srolling-three .star {
+    display: inline;
+    margin-top: 20px;
+}
+
+.srolling-three {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(119, 108, 108);
+    border-radius: 40px;
+
+}
+
+.onesroll h2 {
+    margin: auto;
+}
+
+.bg13 {
+    background-color: rgb(207, 215, 215);
+
+}
+
+.review {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    height: 450px;
+    padding: 50px;
+
+    justify-content: center;
+}
+
+.under-one {
+    margin-top: 50px;
+}
+
+.under-one h2 {
+    padding: 20px;
+
+}
+
+.under-one p {
+    padding: 20px;
+
+}
+
+.under-one h2 {
+    font-size: 40px;
+    margin-left: 2px;
+}
+
+.understand {
+
+    margin-left: 150px;
+}
+
+.login-page {
+    border-radius: 13px;
+    border: 2px solid rgb(230, 230, 227);
+    margin-right: 150px;
+    background-color: #fff;
+}
+
+.login {
+
+    align-items: center;
+    width: 500px;
+    gap: 50px;
+    text-transform: capitalize;
+}
+
+.full-name {
+    padding: 50px;
+    height: 20px;
+}
+
+.email {
+    padding: 50px;
+    height: 20px;
+}
+
+.mobile {
+    padding: 50px;
+    height: 20px;
+
+}
+
+.full-name #name {
+    width: 350px;
+    height: 40px;
+    margin-right: 200px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.email #mail {
+    width: 350px;
+    height: 40px;
+    margin-right: 200px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.mobile #phone {
+    width: 350px;
+    height: 32px;
+    margin-right: 200px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.full-name p {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.email p {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.mobile p {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.mobile button {
+    width: 120px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(48, 34, 243);
+}
+
+.contact-me {
+    height: 250px;
+    margin-left: 60px;
+    margin-right: 80px;
+
+
+
+}
+
+.contact-demo {
+    background-image: linear-gradient(rgba(12, 213, 12, 0.5), rgba(236, 235, 235, 0.5), rgba(240, 99, 12, 0.5));
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.contact-demo h1 {
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.contact-demo button {
+    width: 120px;
+    height: 50px;
+    margin-right: 80px;
+    background-color: #fff;
+    color: #000000;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg15 {
+    background-color: rgb(228, 238, 238);
+    height: 600px;
+}
+
+.conclu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    height: 300px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 60px;
+    padding-top: -200px;
+
+
+
+
+}
+
+.conclusion {
+    width: 600px;
+    margin-left: 10px;
+
+}
+
+.information {
+    width: 300px;
+}
+
+.information ul li {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.additional-course ul li {
+    padding: 10px;
+    width: 300px;
+    list-style: none;
+}
+
+.information h2 {
+    padding: 20px;
+}
+
+.additional-course h2 {
+    padding: 20px;
+}
+
+.conclusion-logos i {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border: 2px solid orange;
+    border-radius: 50%;
+
+}
+
+
+/* Responssive */
+
+
+/* @media screen and (min-width:320px)  {
+    .combine {
+        display: block;
+        width: 100%;
+    }
+    .address{
+        display:block;
+        width: 100%;
+    }
+    .second{
+        display: block;
+        width: 100%;
+    }
+    .image-logo img{
+        width: 100%;
+    }
+
+    .bg { */
+        /* height: 100%;
+    }
+
+    .conclu {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-demo {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .images-location {
+        display: block; */
+        /* width: 100%
+    }
+
+    .hyderabad {
+        display: block;
+        /* width:100%; */
+        /* margin-left: auto; */
+    /* }
+
+    .skill {
+        margin-left: 0px;
+    }
+
+    .multi-course {
+        display: block;
+        width: 100%
+    }
+
+    .name p {
+        font-size: 30px;
+    }
+
+    .boxes {
+        display: block;
+        width: 100%
+    }
+
+    .language-box {
+        display: block;
+        width: 100%
+    }
+
+    .topics {
+        display: block;
+        width: 100%
+    }
+
+    .topics {
+        margin-top: 420px;
+    }
+
+    .fifth-image {
+        width: 320px;
+    }
+
+    .four h1 {
+        font-size: 50px;
+    }
+
+    .name p {
+        display: block;
+        padding: none;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .login {
+        display: block;
+        width: 100%
+    }
+
+    .bg15 {
+        display: block;
+        width: 100%
+    }
+
+    .review {
+        display: block;
+        width: 100%
+    }
+
+    .onesroll {
+        display: block;
+        width: 100%
+    }
+
+    .heading {
+        display: block;
+        width: 100%
+    }
+
+    .images-location { */
+        /* margin-left: 0px;
+    }
+
+    .combine {
+        margin-top: 50px;
+    }
+
+    .fifth-image {
+        margin-top: 500px;
+        overflow: hidden;
+    }
+
+    .skilled {
+        display: block;
+        width: 100%
+    }
+
+    .skilled li {
+        margin-left: 0px;
+    }
+
+    .four {
+        margin-left: 0px;
+    }
+
+    .name {
+        display: block;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .course {
+        margin-top: 600px;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .language-box {
+        background-color: #fff;
+    }
+
+    .boxes {
+        margin-left: 0px;
+    }
+
+    .boxes .boxone {
+        margin-left: 0px;
+
+    }
+
+    .boxone {
+        display: block;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+
+    .java {
+        display: block;
+    }
+
+    .other {
+        display: block;
+        width: 100%;
+        margin-top: -100px;
+        padding: 20px;
+    }
+
+    .other h1 {
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .multi-course {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+
+    .heading {
+        margin-top: 450px;
+    }
+
+    .onesroll {
+        padding: 0px; */
+        /* margin-left: 0px;
+    }
+
+    .review {
+        margin-top: 200px;
+    }
+
+    .understand {
+        display: block;
+        width: 100%;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .under-one {
+        margin-left: 0px;
+    }
+
+    .login {
+        margin-top: 500px;
+    }
+
+    .boxes .boxone {
+        height: 320px;
+        text-align: center;
+
+    }
+
+    .srolling-one {
+        display: block;
+        width: 100px;
+    }
+
+    .srolling-one {
+        margin-bottom: 10px;
+    }
+
+    .fifth-image {
+        margin-top: 100px;
+    }
+
+    .bg5 {
+        margin-top: 50px;
+    }
+
+    .fullstack .boxes .boxone {
+        margin-bottom: 0px;
+    }
+
+    .boxtwo {
+        display: flex;
+        width: 100%;
+    }
+
+    .boxthree {
+        display: flex;
+        width: 100%;
+    }
+
+    .boxfour {
+        display: flex;
+        width: 100%;
+    }
+
+    .boxes .boxtwo {
+        width: 480px;
+    }
+
+    .boxes .boxone {
+        width: 480px;
+    }
+
+    .boxes .boxthree {
+        width: 480px;
+    }
+
+    .boxes .boxfour {
+        width: 480px;
+    }
+
+    .boxes .boxtwo {
+        margin-bottom: 20px;
+    }
+
+    .digital-marketing {
+        margin-bottom: 20px;
+    }
+
+    .digiprogram {
+        margin-bottom: 10px;
+    }
+
+    .digimsoffice {
+        margin-bottom: 10px;
+    }
+
+    .digisql {
+        margin-bottom: 10px;
+    }
+
+    .digiwebdeis {
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        margin-top: px;
+    }
+
+    .name {
+        padding: 8px;
+    }
+
+    .one-second {
+        margin-bottom: 20px;
+    }
+
+    .fullstack .boxes .boxone {
+        margin-bottom: 20px;
+        height: 300px;
+    }
+
+    .boxes .boxtwo {
+        height: 315px;
+    }
+
+    .boxes .boxthree {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        height: 315px;
+    }
+
+    .boxes .boxfour {
+        height: 315px;
+    }
+
+    .other h1 {
+        padding: 2px;
+    }
+
+    .other-multi-course {
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+
+    .multi-course {
+        margin-top: 0px;
+    }
+
+    .other-multi-course {
+        margin-right: -152px;
+    }
+
+    .cprogram,
+    .msoffice,
+    .sql,
+    .webdeis {
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin-top: 580px;
+        font-size: 20px;
+    }
+
+    .srolling-one,
+    .srolling-two,
+    .srolling-three {
+        width: 420px;
+    }
+
+    .review {
+        height: 1020px;
+    }
+
+    .under-one h2 {
+        font-size: 25px;
+        margin-left: -50px;
+    }
+
+    .under-one {
+        margin-top: -40px;
+    }
+
+    .login {
+
+        width: 100%;
+    }
+
+    .full-name #name,
+    .mobile #phone,
+    .email #mail {
+        width: 180px;
+    }
+
+    .review {
+        padding: 27px;
+    }
+
+    .login-page {
+        width: 100%;
+        margin-left: -30px;
+        height: 50%;
+    }
+
+    .review {
+        height: 880px;
+    }
+
+    .contact-me {
+        margin-left: 0.2px;
+        margin-right: 0.0px;
+    }
+
+    .contact-demo h1 {
+        font-size: 29.2px;
+        margin-left: -174.4px;
+    }
+
+    .conclusion {
+        display: block;
+        width: 648.4px;
+        margin-left: -48.4px;
+        margin-top: -122px; */
+        /* font-size: 12px;
+    }
+
+    .conclusion h2 {
+        display: block;
+        width: 100%;
+    }
+
+    .bg15 {
+        height: 866.4px;
+    }
+
+    .onesroll {
+        height: 288.8px;
+        margin-left: 0px;
+        margin-top: 17px;
+        margin-right: 112.2px;
+        margin-bottom: 13.6px;
+    }
+
+    .boxes {
+        margin-left: -4.2px;
+    }
+
+    .boxes .boxtwo,
+    .boxes .boxthree,
+    .boxes .boxfour,
+    .boxes .boxone {
+        width: 258.2px;
+    }
+
+    .first-one {
+        margin-bottom: 20px;
+    }
+
+    .information,
+    .additional-course {
+        margin-left: -58.4px;
+    }
+
+    .bg15 {
+        margin-top: -178.6px;
+    }
+    .other-multi-course {
+        margin-right: -34.6px; */
+      /* } */
